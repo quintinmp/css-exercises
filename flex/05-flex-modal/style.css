@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .modal {
@@ -20,19 +21,30 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
 }
 
 .icon {
-  color: royalblue;
+  color: lavender;
   font-size: 26px;
   font-weight: 700;
-  background: lavender;
+  background: rgb(191, 191, 255);
   width: 42px;
   height: 42px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
+  margin-left:10px;
+  margin-right:10px;
+  flex-shrink: 2;
+  
+}
+
+.header {
+flex-shrink: 2;
+
 }
 
 .close-button {
